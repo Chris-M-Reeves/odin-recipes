@@ -44,10 +44,14 @@ a:hover{
     color: black;
 }
 
-p, li{
+p {
     color: white;
     margin-left: 250px;
     margin-right: 250px;
+}
+
+li{
+    color: white;
 }
 
 h2{
@@ -92,6 +96,14 @@ text-align: center;
 list-style-type: none;
 }
 
+ol{
+    margin-left: 200px;
+    margin-right: 200px;
+
+} 
+
 #homelink{
     padding-left: 50px;
+    list-style-type: none;
+    
 }
