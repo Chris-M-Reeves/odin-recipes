@@ -3,20 +3,45 @@ background-image: linear-gradient(rgb(0, 0, 0), rgb(79, 0, 226));
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-h1{
-    background-image: linear-gradient(gray, blue);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 5px rgb(0, 0, 0);
-    border-style: inset;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 60px
+
+button{
+    background-color: rgba(0, 3, 5, 0);
+    border: solid white;
+    transition-duration: 0.4;
+    color: white;
+    padding-inline: 40px;
 
 
 }
 
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid black;
+    color: black;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 5px rgb(0, 0, 0);
+    border-style: inset;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
 a{
-    color: rgb(144, 200, 202);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition-duration: 0.4;
+
+}
+
+a:hover{
+    color: black;
 }
 
 p, li{
@@ -26,10 +51,14 @@ p, li{
 h2{
     border-style: ridge;
     font-weight: 9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Orbitron", sans-serif;
     text-indent: 5%;
-    text-shadow: 1px 1px 5px rgb(255, 0, 0);
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px black;
     color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
 
     
 }
@@ -45,3 +74,19 @@ img{
     width: auto;
 
 }
+
+strong{
+    font-size: 20px;
+    display:block;
+    padding: auto;
+    margin-top: 10px;
+    text-shadow: 1px 2px 10px black;
+  
+}
+ 
+
+ul{
+text-align: center;
+list-style-type: none;
+}
+
