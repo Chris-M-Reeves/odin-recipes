@@ -46,6 +46,8 @@ a:hover{
 
 p, li{
     color: white;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 h2{
